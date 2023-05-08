@@ -12,11 +12,6 @@ Element.prototype.slider = function (data) {
       "px";
     slides.forEach((slide) => (slide.style.width = slideWidth));
 
-    let firstSlide = slides[0];
-    const clone = firstSlide.cloneNode(true);
-    this.querySelector(".slider_wrapper").appendChild(clone);
-    firstSlide.remove();
-
     setInterval(() => {
       let slides = this.querySelectorAll(".slide");
       let firstSlide = slides[0];
