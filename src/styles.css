@@ -1,0 +1,24 @@
+#custom_slider {
+  width: 600px;
+  overflow: hidden;
+  display: flex;
+  height: 209px;
+}
+
+.slider_wrapper {
+  display: flex;
+  gap: 25px;
+  height: 100%;
+}
+
+#custom_slider .slide {
+  width: 312px;
+  height: 100%;
+  display: flex;
+}
+
+#custom_slider .slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
